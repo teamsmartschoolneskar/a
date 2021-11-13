@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="Font Awesome/css/all.min.css">
+
+    <title>Announcement</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand ml-3" href="home.html"><h2>SELAMAT DATANG ADMIN</h2></a>
+    </nav>
+
+      <!-- Masih HTML -->
+
+      <div class="row no-gutters mt-5">
+        <div class="col-md-2 bg-light mt-2 pr-3 pt-4">
+          <ul class="nav flex-column ml-3 mb-5">
+            <li class="nav-item">
+              <a class="nav-link active" href="account.html"><i class="fas fa-user mr-2"></i>Account</a><hr class="bg-secondary">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html"><i class="fas fa-user-graduate mr-2"></i>Data</a><hr class="bg-secondary">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="announcement.html"><i class="far fa-calendar mr-2"></i>Announcement</a><hr class="bg-secondary">
+            </li>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <li class="nav-item">
+              <a class="nav-link" href="logout.html"><i class="fas fa-sign-out-alt mr-2"></i>Log Out</a><hr class="bg-secondary">
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-10 pt-5 pl-3">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="Announcement">
+                    <div class="card-body">
+                      <p class="card-text">...</p>
+                    </div>
+                </div>
+              </div>
+            </div>   
+          </div>
+        </div>
+      </div>
+      
+        <footer class="footer text-justify">
+          <div class="container">
+            <div class="row">
+              <div class="footer-col">
+                <h4>SIDASI</h4>
+                  <ul>
+                    <li>SIDASI adalah singkatan dari Sistem Data Siswa yang dibuat oleh Tim Smart School SMK Negeri 1 Karawang. SIDASI ditujukan untuk kemudahan warga sekolah dalam kebutuhan komunikasi dan ke-dataan. SIDASI dirancang sedemikian rupa untuk jalannya data peserta didik dan informasi dari kesiswaan sekolah. SIDASI juga diinisiasikan untuk SMK Negeri 1 Karawang pada era digital 4.0 menuju sekolah digital. Website ini dibangun oleh Team Smart School Neskar.</li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Team Smart School Neskar</h4>
+                  <ul>
+                    <li>Kami adalah sebuah team yang terdiri dari 4 orang. Kami membangun website SIDASI dengan harapan kemudahan, kenyamanan, dan keamanan warga sekolah khususnya peserta didik dalam mengolah informasi data mereka</li>
+                    <li>Website Analyst : 
+                      <p>Muhammad Doddy Mauluddin</p></li>
+                    <li>Web Designer :
+                      <p>Muhammad Gilang Khaliq Nur Rahman</p></li>
+                    <li>Front-end Developer : 
+                      <p>Christopper Rangga Wijaya Setiawan</p></li>
+                    <li>Back-end Developer : 
+                      <p>Atika Nur Aghny</p></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Find Us</h4>
+                  <ul class="social-links">
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fas fa-envelope"></i></a>
+                  </ul>
+              </div>
+            </div>
+           </div>
+            
+          <div class="footer-bottom">
+            <p>Copyright &copy; 2021 <em>Team Smart School Neskar</em></p>
+          </div>
+        </footer>
+          <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="admin.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+
+  </body>
+</html>
