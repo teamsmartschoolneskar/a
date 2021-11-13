@@ -15,13 +15,13 @@
   <body>
 
     <nav class="navbar navbar-dark bg-primary fixed-top">
-        <a class="navbar-brand" href="home.html"><h2>SELAMAT DATANG ADMIN</h2></a>
+        <a class="navbar-brand ml-3" href="home.html"><h2>SELAMAT DATANG ADMIN</h2></a>
     </nav>
 
       <!-- Masih HTML -->
 
       <div class="row no-gutters mt-5">
-        <div class="col-md-2 bg-light mt-2 pr-3 pt-4">
+        <div class="col-md-2 bg-light mt-2 pr-3 pt-4 fixed-left">
           <ul class="nav flex-column ml-3 mb-5">
             <li class="nav-item">
               <a class="nav-link active" href="account.html"><i class="fas fa-user mr-2"></i>Account</a><hr class="bg-secondary">
@@ -32,7 +32,7 @@
             <li class="nav-item">
               <a class="nav-link" href="announcement.html"><i class="far fa-calendar mr-2"></i>Announcement</a><hr class="bg-secondary">
             </li>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
             <li class="nav-item">
               <a class="nav-link" href="logout.html"><i class="fas fa-sign-out-alt mr-2"></i>Log Out</a><hr class="bg-secondary">
             </li>
@@ -41,11 +41,62 @@
         <div class="col-md-10 pt-5 pl-3">
           <h3 class="mb-4">HOME</h3>
           
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <h1> Announcement </h1>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="Announcement">
+                    <div class="card-body">
+                      <p class="card-text">...</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="footer-col">
+                  <h4>SIDASI</h4>
+                    <ul>
+                      <li>SISWAN adalah singkatan dari Sistem Kesiswaan SMK Negeri 1 Karawang. SISWAN ditujukan untuk kemudahan warga sekolah dalam kebutuhan komunikasi dan ke-dataan. SISWAN dirancang sedemikian rupa untuk jalannya data peserta didik dan informasi dari kesiswaan sekolah. SISWAN juga diinisiasikan untuk SMK Negeri 1 Karawang pada era digital 4.0 menuju sekolah digital. Website ini dibangun oleh Team Smart School Neskar.</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Team Smart School Neskar</h4>
+                    <ul>
+                      <li>Kami adalah sebuah team yang terdiri dari 4 orang. Kami membangun website SISWAN dengan harapan kemudahan, kenyamanan, dan keamanan warga sekolah khususnya peserta didik dalam mengolah informasi data mereka.
+                        Website Analyst : Muhammad Doddy Mauluddin || Web Designer : Muhammad Gilang Khaliq Nur Rahman || Front-end Developer : Christopper Rangga Wijaya Setiawan || Back-end Developer : Atika Nur Aghny</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Find Us</h4>
+                    <ul class="social-links">
+                      <a href=""><i class="fab fa-youtube"></i></a>
+                      <a href=""><i class="fab fa-instagram"></i></a>
+                      <a href=""><i class="fas fa-envelope"></i></a>
+                    </ul>
+                </div>
+              </div>
+            </div>
+              
+            <div class="footer-bottom">
+              <p>Copyright &copy; 2021 <em>Team Smart School Neskar</em></p>
+            </div>
+          </footer>
       </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
-S
+
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
