@@ -13,16 +13,16 @@
 <body>
 
     <h1>Ubah Data Siswa</h1>
-    <br><a href="data-admin.php">Kembali</a><br><br>
+    <br><a href="../admin/data-admin.php">Kembali</a><br><br>
 
     <?php
-        include 'koneksi.php';
+        include '../config/koneksi.php';
         $id = $_GET['id'];
         $data = mysqli_query($conn, "SELECT * FROM data_siswa WHERE id='$id'");
         while ($ds = mysqli_fetch_array($data)) {
             ?>
         <div class="form">
-            <form method="POST" action="update-admin-action.php">
+            <form method="POST" action="../admin/update-admin-action.php">
                 <h3>Data Siswa</h3>
                 <h4>Data Pokok Siswa</h4>
                 <table>
