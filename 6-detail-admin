@@ -7,8 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="Font Awesome/css/all.min.css">
 
-<title>Ubah Data</title>
+<title>Detail</title>
 </head>
 <body>
     
@@ -216,6 +218,45 @@
         <?php
             }
         ?>
+
+        <footer class="footer text-justify">
+            <div class="container">
+              <div class="row">
+                <div class="footer-col">
+                  <h4>SIDASI</h4>
+                    <ul>
+                      <li>SIDASI adalah singkatan dari Sistem Data Siswa yang dibuat oleh Tim Smart School SMK Negeri 1 Karawang. SIDASI ditujukan untuk kemudahan warga sekolah dalam kebutuhan komunikasi dan ke-dataan. SIDASI dirancang sedemikian rupa untuk jalannya data peserta didik dan informasi dari kesiswaan sekolah. SIDASI juga diinisiasikan untuk SMK Negeri 1 Karawang pada era digital 4.0 menuju sekolah digital. Website ini dibangun oleh Team Smart School Neskar.</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Team Smart School Neskar</h4>
+                    <ul>
+                      <li>Kami adalah sebuah team yang terdiri dari 4 orang. Kami membangun website SIDASI dengan harapan kemudahan, kenyamanan, dan keamanan warga sekolah khususnya peserta didik dalam mengolah informasi data mereka</li>
+                      <li>Website Analyst : 
+                        <p>Muhammad Doddy Mauluddin</p></li>
+                      <li>Web Designer :
+                        <p>Muhammad Gilang Khaliq Nur Rahman</p></li>
+                      <li>Front-end Developer : 
+                        <p>Christopper Rangga Wijaya Setiawan</p></li>
+                      <li>Back-end Developer : 
+                        <p>Atika Nur Aghny</p></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Find Us</h4>
+                    <ul class="social-links">
+                      <a href=""><i class="fab fa-youtube"></i></a>
+                      <a href=""><i class="fab fa-instagram"></i></a>
+                      <a href=""><i class="fas fa-envelope"></i></a>
+                    </ul>
+                </div>
+              </div>
+            </div>
+              
+            <div class="footer-bottom">
+              <p>Copyright &copy; 2021 <em>Team Smart School Neskar</em></p>
+            </div>
+          </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
